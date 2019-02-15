@@ -25,7 +25,7 @@
     "post": [
       "clean-source"
     ],
-    "noprompt": false
+    "noprompt": true
   },
   "eslintConfig": {
     "extends": "react-app"
