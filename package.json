@@ -16,16 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "build",
-    "commit": "weather initial commit",
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": true
   },
   "eslintConfig": {
     "extends": "react-app"
