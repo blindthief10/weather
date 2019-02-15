@@ -6,7 +6,7 @@ export default class NavList extends Component {
     return (
       <ul className="nav">
         <li className="nav-item">
-          <NavLink className="nav-link" to="/">Search</NavLink>
+          <NavLink className="nav-link" to="/weather">Search</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/show">Show Weather</NavLink>

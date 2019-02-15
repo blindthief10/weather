@@ -6,7 +6,7 @@ export default class SuperApp extends Component {
   render() {
     return (
       <HashRouter>
-        <Route path="/" render={({match, history, location}) => <App history={history}/>} />
+        <Route path="/weather" render={({match, history, location}) => <App history={history}/>} />
       </HashRouter>
     )
   }
