@@ -43,7 +43,7 @@ export default class App extends Component {
         <div className="container">
             <NavList />
             <div className="jumbotron">
-              <Route path="/dist" render={({match, history, location}) => <CitySearch updateCity={this.updateCity} cityName={this.state.cityName} makeCityRequest={this.makeCityRequest}/>} />
+              <Route path="/" exact render={({match, history, location}) => <CitySearch updateCity={this.updateCity} cityName={this.state.cityName} makeCityRequest={this.makeCityRequest}/>} />
               <Route path="/show" render={() => <ShowCities allCities={this.state.citiesShown} />}/>
             </div>
         </div>
