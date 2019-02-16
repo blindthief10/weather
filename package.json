@@ -26,7 +26,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "gh-pages-deploy": "^0.5.1"
-  }
+  "devDependencies": {}
 }
